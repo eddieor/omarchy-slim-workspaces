@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "eddieor.workspaces",
+  "name": "Slim Workspaces",
+  "version": "1.0.0",
+  "author": "eddieor",
+  "description": "Compact workspace dots for a thin Apple-style menu bar",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Workspaces.qml"
+  },
+  "barWidget": {
+    "displayName": "Slim Workspaces",
+    "description": "Small dots instead of numbered workspace pills",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
